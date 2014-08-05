@@ -1,0 +1,14 @@
+#customBtn {
+	display: inline-block;
+	background: transparent;
+	color: white;
+	width: 225px;
+	border-radius: 5px;
+	white-space: nowrap;
+}
+
+img#icon {
+	max-width: 100%;
+	max-height: 100%;
+	content: url('images/Red-signin-Long-base-44dp.png');
+}

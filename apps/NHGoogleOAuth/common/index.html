@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Sample GoogleOAuth</title>
+
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+<link rel="shortcut icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+<script>
+	window.$ = window.jQuery = WLJQ;
+</script>
+</head>
+
+<body>
+	<div id="authOps">
+		<button onclick="disconnect()">Logout</button>
+	</div>
+	<div id="gConnect" style="display: none">
+		<div id="customBtn" onclick="invokeSignIn()">
+			<img id="icon">
+		</div>
+	</div>
+
+	<!-- JAVASCRIPT -->
+	<script type="text/javascript" src="js/initOptions.js"></script>
+	<script type="text/javascript" src="js/messages.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		function invokeSignIn() {
+			WL.App.sendActionToNative("invokeSignIn", {});
+		};
+
+		function disconnect() {
+			WL.App.sendActionToNative("disconnect", {});
+		};
+	</script>
+</body>
+
+</html>

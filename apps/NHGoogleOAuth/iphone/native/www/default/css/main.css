@@ -1,0 +1,32 @@
+
+/* Stylesheet content from css/main.css in folder common */
+#customBtn {
+	display: inline-block;
+	background: transparent;
+	color: white;
+	width: 225px;
+	border-radius: 5px;
+	white-space: nowrap;
+}
+
+img#icon {
+	max-width: 100%;
+	max-height: 100%;
+	content: url('images/Red-signin-Long-base-44dp.png');
+}
+/* Stylesheet content from css/main.css in folder iphone */
+
+/* this CSS file extends the application CSS file found under common\css */
+
+/*Optional iOS 7 status bar filler*/
+#wl_ios7bar{
+	background-color: white;
+	height: 15pt;
+	position: fixed;
+	top: 0;
+	left : 0;
+	width:100%;
+}
+body.wl_ios7{
+	padding-top: 15pt;
+}
