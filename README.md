@@ -1,6 +1,8 @@
 native-hybrid-oauth
 ===================
 
+By Sam Muggleworth
+
 An implementation of Native-Hybrid Google OAuth for Android and iOS using IBM Worklight 6.2
 
 This repo contains a sample application that will successfully log in to Google using a Native-Hybrid approach.
